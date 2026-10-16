@@ -21,8 +21,8 @@ Repositori ini memuat berkas tugas dan laporan praktikum **Minggu 6: Risiko AI/L
 ## 🌐 Tautan Publik & Deployment
 
 - **URL Publik Netlify**: https://project06cecaaa.netlify.app/
-- **URL Versi Rentan**: https://project06cecaaa.netlify.app/24781026-kantin-voucher-rentan.html
-- **URL Versi Aman**: https://project06cecaaa.netlify.app/24781026-kantin-voucher-aman.html
+- **URL Versi Rentan**: https://project06cecaaa.netlify.app/24781026-ulasan-produk-rentan.html
+- **URL Versi Aman**: https://project06cecaaa.netlify.app/24781026-ulasan-produk-aman.html
 - **Repository GitHub**: https://github.com/septicahyaningtiaspolinela-ship-it/ksi-seca
 
 > **Tautan Kasus Web Dummy**:
