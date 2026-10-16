@@ -20,10 +20,15 @@ Repositori ini memuat berkas tugas dan laporan praktikum **Minggu 6: Risiko AI/L
 
 ## 🌐 Tautan Publik & Deployment
 
-- **URL Publik Netlify**: 
-- **URL Versi Rentan**: 
-- **URL Versi Aman**: 
+- **URL Publik Netlify**: https://ksi-seca-24781026.netlify.app/
+- **URL Versi Rentan**: https://ksi-seca-24781026.netlify.app/24781026-kantin-voucher-rentan.html
+- **URL Versi Aman**: https://ksi-seca-24781026.netlify.app/24781026-kantin-voucher-aman.html
 - **Repository GitHub**: https://github.com/septicahyaningtiaspolinela-ship-it/ksi-seca
+
+> **Tautan Kasus Web Dummy (Netlify & GitHub Pages)**:
+> - **Kasus 1 (Kasir Kantin · Direct Injection)**: [Versi Rentan](https://ksi-seca-24781026.netlify.app/24781026-kantin-voucher-rentan.html) · [Versi Aman](https://ksi-seca-24781026.netlify.app/24781026-kantin-voucher-aman.html)
+> - **Kasus 2 (Peringkas Ulasan · Indirect Injection)**: [Versi Rentan](https://ksi-seca-24781026.netlify.app/24781026-ulasan-produk-rentan.html) · [Versi Aman](https://ksi-seca-24781026.netlify.app/24781026-ulasan-produk-aman.html)
+> - **Opsi Alternatif GitHub Pages**: [`https://septicahyaningtiaspolinela-ship-it.github.io/ksi-seca/`](https://septicahyaningtiaspolinela-ship-it.github.io/ksi-seca/)
 
 ---
 
