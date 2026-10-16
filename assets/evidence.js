@@ -393,17 +393,17 @@
   };
 
   const PREFILLED_WEB_DUMMY = {
-    caseId: "LIVE-2",
-    platform: "github",
+    caseId: "LIVE-1",
+    platform: "netlify",
     provider: "Google AI Studio",
     modelName: "gemini-1.5-flash",
-    urlVulnerable: "https://github.com/24781026/p06-llm-security/blob/main/24781026-ulasan-produk-rentan.html",
-    urlSecure: "https://github.com/24781026/p06-llm-security/blob/main/24781026-ulasan-produk-aman.html",
-    urlRepo: "https://github.com/24781026/p06-llm-security",
-    deployedAt: "2026-10-09T20:00",
-    risk: "Peringkas ulasan produk terpengaruh oleh ulasan pelanggan beracun yang menyisipkan instruksi pembajakan (indirect prompt injection). Pada versi rentan, teks di dalam ulasan dieksekusi oleh LLM sehingga menghasilkan penanda pembajakan INJEKSI-P06-77.",
-    control: "Memasang penyaringan konten eksternal tak tepercaya (untrusted content sanitization) sebelum dimasukkan ke konteks prompt, mengisolasi peran peringkas secara terpisah (instruction hierarchy), dan memvalidasi keluaran (output validation) untuk memastikan tidak ada penanda pembajakan yang lolos.",
-    reasoning: "Penyaringan ulasan sebelum dikirim ke LLM memutus saluran instruksi jahat di luar model, sehingga instruksi tersembunyi tidak pernah sampai ke mesin inferensi dan model hanya memproses data ulasan bersih.",
+    urlVulnerable: "https://project06cecaaa.netlify.app/24781026-kantin-voucher-rentan.html",
+    urlSecure: "https://project06cecaaa.netlify.app/24781026-kantin-voucher-aman.html",
+    urlRepo: "https://github.com/septicahyaningtiaspolinela-ship-it/ksi-seca",
+    deployedAt: "2026-10-16T20:25",
+    risk: "Chatbot kantin terpengaruh oleh prompt injection langsung (direct prompt injection) yang menimpa instruksi sistem menjadi kasir dan menerbitkan voucher diskon 100% ilegal.",
+    control: "Menerapkan hierarki instruksi (instruction hierarchy) dengan mengisolasi masukan pengguna, membatasi hak akses (least privilege) dengan menghapus kewenangan penerbitan voucher dari model AI, serta validasi keluaran (output policy validation).",
+    reasoning: "Pemisahan peran dan validasi kebijakan di luar model memastikan model bahasa tidak memiliki kemampuan mengeksekusi fungsi penerbitan voucher meskipun terjadi manipulasi prompt.",
     checker: {
       ranAt: "2026-10-09T22:30:00.000Z",
       vulnerable: { proven: true, violated: true, secureOk: false, normalOk: false, error: "" },
