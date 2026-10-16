@@ -18,6 +18,15 @@ Repositori ini memuat berkas tugas dan laporan praktikum **Minggu 6: Risiko AI/L
 
 ---
 
+## 🌐 Tautan Publik & Deployment
+
+- **URL Publik Netlify**: 
+- **URL Versi Rentan**: 
+- **URL Versi Aman**: 
+- **Repository GitHub**: https://github.com/septicahyaningtiaspolinela-ship-it/ksi-seca
+
+---
+
 ## 📚 Informasi Akademik & Kontrak RPS
 
 - **Mata Kuliah**: Keamanan Sistem Informasi (PMI 1522) — Semester 5
