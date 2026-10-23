@@ -14,7 +14,7 @@ Repositori ini memuat berkas tugas dan laporan praktikum **Minggu 6: Risiko AI/L
 | **Kelas** | **MI-5A** |
 | **Program Studi** | D3 Manajemen Informatika |
 | **Institusi** | Politeknik Negeri Lampung (POLINELA) |
-| **Deployment** | [https://secaseblakpedas.netlify.app/](https://secaseblakpedas.netlify.app/) |
+| **Deployment** | [https://kampusseca.netlify.app/](https://kampusseca.netlify.app/) |
 
 ---
 
